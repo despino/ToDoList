@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/ToDoList.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/ToDoList.js"></script>
+  <title>To Do List</title>
+</head>
+<body>
+  <div class="container">
+    <h1>To Do List</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Add a Task:</h2>
+        <form id="new-list">
+          <div class="form-group">
+            <label for="new-name">Name</label>
+            <input type="text" class="form-control" id="new-name">
+          </div>
+          <div class="form-group">
+            <label for="new-due-date">Due Date</label>
+            <input type="text" class="form-control" id="new-due-date">
+          </div>
+          <div class="form-group">
+            <label for="new-task">Task</label>
+            <input type="text" class="form-control" id="new-task">
+          </div>
+
+          <button type="submit" class="btn">Add</button>
+        </form>
+
+        <h2>Group To Do List:</h2>
+        <ul id="items">
+
+        </ul>
+        <div id="taskList">
+          <!-- <div class="row">
+            <div class="col-md-6">
+              <div id="show-items">
+                <h2></h2>
+                  <p>Name: <span class="name"></span></p>
+                  <p>Due Date: <span class="due-date"></span></p>
+                  <p>Task: <span class="task"></span></p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- <div id="container2">
+  <div class="row">
+    <div class="col-md-12">
+      <button id="inc_btn0">+</button>
+      <button id="del_btn0">Delete</button>
+    </div> -->
